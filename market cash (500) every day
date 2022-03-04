@@ -31,4 +31,4 @@ async function addTokens() {
 };
 
 addTokens();
-alert("Coin dupe made by Giraffey27");
+alert("Coin dupe made by shyleehooters");
