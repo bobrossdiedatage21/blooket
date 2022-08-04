@@ -1,4 +1,4 @@
-const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
+
 (async (args) => {
     let [box, amount] = args
     var name = JSON.parse(atob(localStorage.token.split('.')[1])).name,
@@ -149,6 +149,3 @@ const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
             
             alert('Value of Blooks Unlocked: ' + totalValue);
         });
-    });
-
-})([((text) => text.charAt(0).toUpperCase() + text.slice(1))(prompt('What box do you want to open? (e.g. "Space") The limited boxes will not open if they are not available')), Number(prompt('How many boxes do you want to open?'))])
